@@ -7,9 +7,9 @@ import starlightSidebarTopics from 'starlight-sidebar-topics';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Vertical Topic Links',
+			title: 'My Docs',
 			social: {
-				github: 'https://github.com/sarah11918/starlight-blank/tree/vertical-links',
+				github: 'https://github.com/withastro/starlight',
 			},
 			// plugins: [
 			// 	starlightUtils({
@@ -24,7 +24,7 @@ export default defineConfig({
 				{
 					label: 'Start',
 					link: '/guides/example/',
-					icons: 'open-book',
+					icon: 'open-book',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: "What's New", slug: 'basics/example' },
@@ -89,7 +89,7 @@ export default defineConfig({
 				{
 					label: 'Build',
 					link: '/recipes/example/',
-					icons: 'open-book',
+					icon: 'open-book',
 					items: [
 					
 					  {
@@ -164,7 +164,7 @@ export default defineConfig({
 				{
 					label: 'Reference',
 					link: '/reference/example/',
-					icons: 'open-book',
+					icon: 'open-book',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: "Upgrade Astro", slug: 'basics/example' },
